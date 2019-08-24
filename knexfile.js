@@ -6,7 +6,7 @@ module.exports = {
       connection: {
         filename: "./dev.sqlite3"
       },
-      migration: {
+      migrations: {
         directory: "./data/migrations"
       },
       seeds: {
